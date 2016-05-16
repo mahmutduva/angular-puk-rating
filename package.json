@@ -1,0 +1,8 @@
+{
+  "name": "application-name",
+  "version": "0.0.1",
+  "devDependencies": {
+    "angular": "^1.5.5",
+    "gulp": "^3.9.1"
+  }
+}
