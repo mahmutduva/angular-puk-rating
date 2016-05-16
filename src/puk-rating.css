@@ -1,12 +1,12 @@
-.puk-star {
+.puk-rating{
     list-style: none;
 }
 
-.puk-star li {
+.puk-rating li {
     display: inline-block;
     margin: 0 2px;
 }
 
-.puk-star li:first-child {
+.puk-rating li:first-child {
     margin-left: 0
 }

@@ -1,11 +1,11 @@
 angular
-    .module('app',["puk.starRating"])
+    .module('app',["pukRating"])
     .controller('appController',appController);
 
 
 function appController() {
     var vm = this;
 
-    vm.star = 5;
-    vm.selectedStar = 2;
+    vm.puk = 5;
+    vm.selectedPuk = 2;
 }

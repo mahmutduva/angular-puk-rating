@@ -4,7 +4,7 @@ var open = require('gulp-open');
 
 
 gulp.task('default', function() {
-    gulp.src('src/puk-start.js')
+    gulp.src('src/puk-rating.js')
         .pipe(minify({
             ext:{
                 min:'.min.js'
