@@ -1,0 +1,23 @@
+{
+  "name": "puk-rating",
+  "description": "rating for everything",
+  "main": [
+    "src/puk-rating.min.js",
+    "src/puk-rating.css"
+  ],
+  "authors": [
+    "Mahmut Duva <mahmut.duva@freebirdairlines.com>"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "rating"
+  ],
+  "homepage": "https://github.com/mahmutduva/angular-puk-rating",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

@@ -9,6 +9,12 @@ $ npm install puk-rating
 
 ```
 
+### Bower
+```
+$ bower install puk-rating
+
+```
+
 ### Module
 ```javascript
 angular.module('yourApp', ['pukRating']);
