@@ -4,7 +4,7 @@
  *
  */
 angular
-    .module('puk.star', [])
+    .module('puk.starRating', [])
     .directive('starRating', function () {
         return {
             restrict: 'EA',
@@ -123,7 +123,7 @@ function starLink(scope, element, attrs) {
 
             if (index >= i) {
                 if (scope.starEmptyImage && scope.starFullImage) {
-
+                    star.css({"background": "url(" + scope.starFullImage + ")"})
                 }
                 else {
                     star.removeClass(scope.starEmptyIcon);
@@ -132,8 +132,14 @@ function starLink(scope, element, attrs) {
 
             }
             else {
-                star.removeClass(scope.starFullIcon);
-                star.addClass(scope.starEmptyIcon);
+                if (scope.starEmptyImage && scope.starFullImage) {
+                    star.css({"background": "url(" + scope.starEmptyImage + ")"})
+                }
+                else {
+                    star.removeClass(scope.starFullIcon);
+                    star.addClass(scope.starEmptyIcon);
+                }
+
             }
         }
 

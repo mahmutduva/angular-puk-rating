@@ -1,5 +1,5 @@
 angular
-    .module('app',["puk.star"])
+    .module('app',["puk.starRating"])
     .controller('appController',appController);
 
 
