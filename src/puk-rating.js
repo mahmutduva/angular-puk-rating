@@ -123,7 +123,7 @@ function pukLink(scope, element, attrs) {
 
             if (index >= i) {
                 if (scope.pukEmptyImage && scope.pukFullImage) {
-                    puk.css({"background": "url(" + scope.pukFullImage + ")"})
+                    puk.css({"background-image": "url(" + scope.pukFullImage + ")"})
                 }
                 else {
                     puk.removeClass(scope.pukEmptyIcon);
@@ -133,7 +133,7 @@ function pukLink(scope, element, attrs) {
             }
             else {
                 if (scope.pukEmptyImage && scope.pukFullImage) {
-                    puk.css({"background": "url(" + scope.pukEmptyImage + ")"})
+                    puk.css({"background-image": "url(" + scope.pukEmptyImage + ")"})
                 }
                 else {
                     puk.removeClass(scope.pukFullIcon);
