@@ -185,6 +185,7 @@ function setScopeValues(scope, element, attrs) {
 
     scope.starList = [];
 
+
     scope.starCount = parseInt(scope.starCount) || 1;
     scope.starModel = parseInt(scope.starModel) || 0;
 

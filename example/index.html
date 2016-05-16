@@ -3,15 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <title>Puk Star</title>
-    <link href="src/puk-star.css" rel="stylesheet">
-    <link href="bower_components/font-awesome/css/font-awesome.css" rel="stylesheet">
+    <link href="../src/puk-star.css" rel="stylesheet">
+    <link href="../bower_components/font-awesome/css/font-awesome.css" rel="stylesheet">
 </head>
 <body ng-controller="appController as app">
     <star-rating star-count="app.star" star-model="app.selectedStar"></star-rating>
     <star-rating star-count="5" star-model="3" readonly="true" star-icon-color="#5FBA7D" star-icon-size="80px" star-icon-base="fa" star-empty-icon="fa-heart-o" star-full-icon="fa-heart"></star-rating>
-    <star-rating star-count="5" star-model="2" star-image-width="66px" star-image-height="66px" star-empty-image="images/sad.svg" star-full-image="images/smile.svg"></star-rating>
+    <star-rating star-count="5" star-model="2" star-image-width="66px" star-image-height="66px" star-empty-image="../images/sad.svg" star-full-image="../images/smile.svg"></star-rating>
 </body>
-    <script src="bower_components/angular/angular.min.js"></script>
+    <script src="../bower_components/angular/angular.min.js"></script>
     <script src="app.js"></script>
-    <script src="src/puk-start.js"></script>
+    <script src="../src/puk-start.js"></script>
 </html>
