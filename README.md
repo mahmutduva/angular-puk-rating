@@ -3,6 +3,12 @@
 # puk-rating
 rating system for everything
 
+### NPM
+```
+$ npm install puk-rating
+
+```
+
 ### Module
 ```javascript
 angular.module('yourApp', ['pukRating']);
