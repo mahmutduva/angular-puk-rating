@@ -35,3 +35,68 @@ angular.module('yourApp', ['pukRating']);
     <puk-rating puk-count="5" puk-model="2" puk-image-width="66px" puk-image-height="66px" puk-empty-image="../images/sad.svg" puk-full-image="../images/smile.svg"></puk-rating>
 
 ```
+
+
+## Directive attributes
+
+**puk-count**
+
+>
+
+**puk-model**
+
+>
+
+**puk-icon-color**
+
+>
+
+**puk-icon-size**
+
+>
+
+**puk-icon-base**
+
+>
+
+**puk-empty-icon**
+
+>
+
+**puk-full-icon**
+
+>
+
+**puk-image-width / puk-image-height**
+
+>
+
+**puk-empty-image**
+
+>
+
+**puk-full-image**
+
+
+
+
+## Rating events
+
+getRatingValue event
+
+```javascript
+    $scope.$on("getRatingValue", function(event,data) {
+        // action
+    });
+```
+getRatingHoverValue event
+
+```javascript
+    $scope.$on("getRatingHoverValue", function(event,data) {
+        console.log(data)
+    });
+```
+
+## License
+
+Licensed under the MIT license
