@@ -1,6 +1,6 @@
 {
   "name": "puk-rating",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "devDependencies": {
     "angular": "^1.5.5",
     "font-awesome": "^4.6.1",
