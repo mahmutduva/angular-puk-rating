@@ -117,6 +117,7 @@ function pukLink(scope, element, attrs) {
         }
         var items = element.find('li').find('i');
 
+        scope.$emit('getRatingHoverValue', index + 1);
 
         for (var i = 0; i < items.length; i++) {
             var puk = angular.element(items[i]);
@@ -170,6 +171,8 @@ function pukLink(scope, element, attrs) {
         }
 
         scope.pukModel = index + 1;
+
+        scope.$emit('getRatingValue', scope.pukModel);
     }
 
 }
