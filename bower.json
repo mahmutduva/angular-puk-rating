@@ -2,7 +2,7 @@
   "name": "puk-rating",
   "description": "rating for everything",
   "main": [
-    "src/puk-rating.min.js",
+    "src/puk-rating.js",
     "src/puk-rating.css"
   ],
   "authors": [
